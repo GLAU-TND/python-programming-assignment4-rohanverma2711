@@ -1,0 +1,9 @@
+a = eval(input())
+b = input()
+c = []
+for i in a:
+    if i.startswith(b):
+        c.append(i)
+    else:
+        pass
+print(c)
